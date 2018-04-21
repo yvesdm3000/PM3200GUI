@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="LogConfigurationDlg">
+		<title>Configure logging</title>
+		<id_arg>0</id_arg>
+		<object class="wxGridBagSizer" variable="GridBagSizer1" member="no">
+			<object class="sizeritem">
+				<object class="wxTextCtrl" name="ID_LOGDIR" variable="LogDir" member="yes">
+					<value>Text</value>
+					<size>149,21</size>
+				</object>
+				<colspan>2</colspan>
+				<col>0</col>
+				<row>3</row>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxButton" name="ID_SELLOGDIR" variable="SelLogDir" member="yes">
+					<label>...</label>
+					<size>31,23</size>
+					<handler function="OnSelLogDirClick" entry="EVT_BUTTON" />
+				</object>
+				<col>2</col>
+				<row>3</row>
+				<flag>wxALL|wxALIGN_LEFT|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticText" name="ID_STATICTEXT1" variable="LogfieldsLabel" member="yes">
+					<label>Log fields:</label>
+				</object>
+				<col>0</col>
+				<row>0</row>
+				<flag>wxALL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxCheckListBox" name="ID_LOGFIELDS" variable="LogFields" member="yes">
+					<size>203,267</size>
+					<focused>1</focused>
+				</object>
+				<colspan>3</colspan>
+				<col>0</col>
+				<row>1</row>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText1" member="yes">
+					<label>Log directory:</label>
+				</object>
+				<col>0</col>
+				<row>2</row>
+				<flag>wxALL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText2" member="yes">
+					<label>Log frequency:</label>
+				</object>
+				<col>0</col>
+				<row>4</row>
+				<flag>wxALL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxTextCtrl" name="ID_LOGFREQ" variable="LogFreq" member="yes">
+					<size>46,21</size>
+					<validator>wxIntegerValidator&lt;unsigned long&gt;()</validator>
+				</object>
+				<col>0</col>
+				<row>5</row>
+				<flag>wxALL|wxALIGN_RIGHT</flag>
+				<border>3</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText3" member="yes">
+					<label>(Minutes)</label>
+				</object>
+				<col>1</col>
+				<row>5</row>
+				<flag>wxALL|wxEXPAND</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxStdDialogButtonSizer" variable="StdDialogButtonSizer1" member="no">
+					<object class="button">
+						<object class="wxButton" name="wxID_OK">
+							<label></label>
+						</object>
+					</object>
+					<object class="button">
+						<object class="wxButton" name="wxID_CANCEL">
+							<label></label>
+						</object>
+					</object>
+				</object>
+				<colspan>2</colspan>
+				<rowspan>4</rowspan>
+				<col>0</col>
+				<row>6</row>
+				<flag>wxALL|wxALIGN_RIGHT|wxALIGN_BOTTOM</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PM3200GUI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option platforms="Windows;" />
+				<Option output="bin/Debug/PM3200GUI" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+					<Add option="-D__WXDEBUG__" />
+					<Add directory="C:/projects/wxWidgets-3.1.1/lib/gcc_dll/mswud" />
+					<Add directory="include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/projects/wxWidgets-3.1.1/lib/gcc_dll/mswud" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="../wxWidgets-3.1.1/lib/gcc510TDM_dll_Debug/libwxmsw31ud_propgrid.a" />
+					<Add library="../wxWidgets-3.1.1/lib/gcc510TDM_dll_Debug/libwxbase31ud.a" />
+					<Add library="../wxWidgets-3.1.1/lib/gcc510TDM_dll_Debug/libwxmsw31ud_core.a" />
+					<Add library="../wxWidgets-3.1.1/lib/gcc510TDM_dll_Debug/libwxpngd.a" />
+					<Add library="../wxWidgets-3.1.1/lib/gcc510TDM_dll_Debug/libwxzlibd.a" />
+					<Add library="../wxWidgets-3.1.1/lib/gcc510TDM_dll_Debug/libwxmsw31ud_adv.a" />
+					<Add directory="C:/projects/wxWidgets-3.1.1/lib/gcc510TDM_x64_dll_Debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/Release/PM3200GUI" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++14" />
+					<Add directory="C:/projects/wxWidgets-3.1.1/lib/gcc_dll/mswu" />
+					<Add directory="include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/projects/wxWidgets-3.1.1/lib/gcc_dll/mswu" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../wxWidgets-3.1.1/lib/gcc510TDM_dll_Debug/libwxbase31u.a" />
+					<Add library="../wxWidgets-3.1.1/lib/gcc510TDM_dll_Debug/libwxmsw31u_core.a" />
+					<Add library="../wxWidgets-3.1.1/lib/gcc510TDM_dll_Debug/libwxmsw31u_propgrid.a" />
+					<Add library="../wxWidgets-3.1.1/lib/gcc510TDM_dll_Debug/libwxpng.a" />
+					<Add library="../wxWidgets-3.1.1/lib/gcc510TDM_dll_Debug/libwxzlib.a" />
+					<Add library="../wxWidgets-3.1.1/lib/gcc510TDM_dll_Debug/libwxmsw31u_adv.a" />
+					<Add directory="C:/projects/wxWidgets-3.1.1/lib/gcc510TDM_x64_dll_Release" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add option="-pipe" />
+			<Add option="-mthreads" />
+			<Add option="-D__GNUWIN32__" />
+			<Add option="-D__WXMSW__" />
+			<Add option="-DWXUSINGDLL" />
+			<Add option="-DwxUSE_UNICODE" />
+			<Add directory="C:/projects/wxWidgets-3.1.1/include" />
+			<Add directory="../libmodbus/src" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/projects/wxWidgets-3.1.1/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-mthreads" />
+			<Add library="../libmodbus/src/.libs/libmodbus.dll.a" />
+		</Linker>
+		<Unit filename="DisplayConfigurationDlg.cpp" />
+		<Unit filename="DisplayConfigurationDlg.h" />
+		<Unit filename="LogConfigurationDlg.cpp" />
+		<Unit filename="LogConfigurationDlg.h" />
+		<Unit filename="PM3200Data.cpp" />
+		<Unit filename="PM3200Data.h" />
+		<Unit filename="PM3200GUIApp.cpp" />
+		<Unit filename="PM3200GUIApp.h" />
+		<Unit filename="PM3200GUIMain.cpp" />
+		<Unit filename="PM3200GUIMain.h" />
+		<Unit filename="PM3200IO.cpp" />
+		<Unit filename="PM3200IO.h" />
+		<Unit filename="SerialPortSetupDlg.cpp" />
+		<Unit filename="SerialPortSetupDlg.h" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="wxsmith/DisplayConfigurationDlg.wxs" />
+		<Unit filename="wxsmith/LogConfigurationDlg.wxs" />
+		<Unit filename="wxsmith/PM3200GUIframe.wxs" />
+		<Unit filename="wxsmith/SerialPortSetupDlg.wxs" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="PM3200GUIApp.cpp" main="PM3200GUIFrame" init_handlers="necessary" language="CPP" />
+				<resources>
+					<wxFrame wxs="wxsmith/PM3200GUIframe.wxs" src="PM3200GUIMain.cpp" hdr="PM3200GUIMain.h" fwddecl="0" i18n="1" name="PM3200GUIFrame" language="CPP" />
+					<wxDialog wxs="wxsmith/LogConfigurationDlg.wxs" src="LogConfigurationDlg.cpp" hdr="LogConfigurationDlg.h" fwddecl="0" i18n="0" name="LogConfigurationDlg" language="CPP" />
+					<wxDialog wxs="wxsmith/DisplayConfigurationDlg.wxs" src="DisplayConfigurationDlg.cpp" hdr="DisplayConfigurationDlg.h" fwddecl="0" i18n="0" name="DisplayConfigurationDlg" language="CPP" />
+					<wxDialog wxs="wxsmith/SerialPortSetupDlg.wxs" src="SerialPortSetupDlg.cpp" hdr="SerialPortSetupDlg.h" fwddecl="0" i18n="0" name="SerialPortSetupDlg" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
