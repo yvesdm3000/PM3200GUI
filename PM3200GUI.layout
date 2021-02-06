@@ -2,39 +2,14 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Release" />
-	<File name="LogConfigurationDlg.cpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1467" topLine="20" />
-		</Cursor>
-	</File>
-	<File name="LogConfigurationDlg.h" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1460" topLine="8" />
-		</Cursor>
-	</File>
-	<File name="PM3200Data.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="PM3200Data.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1454" topLine="8" />
 		</Cursor>
 	</File>
-	<File name="PM3200GUIApp.cpp" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1453" topLine="8" />
-		</Cursor>
-	</File>
-	<File name="PM3200GUIApp.h" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="PM3200GUIApp.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1450" topLine="8" />
-		</Cursor>
-	</File>
-	<File name="PM3200GUIMain.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1451" topLine="8" />
-		</Cursor>
-	</File>
-	<File name="PM3200IO.cpp" open="1" top="1" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="5552" topLine="154" />
 		</Cursor>
 	</File>
 	<File name="PM3200Data.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -42,34 +17,59 @@
 			<Cursor1 position="1452" topLine="8" />
 		</Cursor>
 	</File>
-	<File name="PM3200IO.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3152" topLine="79" />
-		</Cursor>
-	</File>
-	<File name="SerialPortSetupDlg.cpp" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1466" topLine="8" />
-		</Cursor>
-	</File>
-	<File name="SerialPortSetupDlg.h" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="416" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="DisplayConfigurationDlg.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1475" topLine="3" />
-		</Cursor>
-	</File>
 	<File name="PM3200GUIMain.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1974" topLine="45" />
 		</Cursor>
 	</File>
-	<File name="DisplayConfigurationDlg.h" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="SerialPortSetupDlg.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1464" topLine="8" />
+			<Cursor1 position="416" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="DisplayConfigurationDlg.h" open="1" top="1" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1540" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="PM3200GUIMain.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1451" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="SerialPortSetupDlg.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1466" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="LogConfigurationDlg.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1460" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="DisplayConfigurationDlg.cpp" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1475" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="PM3200GUIApp.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1453" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="LogConfigurationDlg.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1467" topLine="20" />
+		</Cursor>
+	</File>
+	<File name="PM3200IO.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3152" topLine="78" />
+		</Cursor>
+	</File>
+	<File name="PM3200IO.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3350" topLine="82" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
